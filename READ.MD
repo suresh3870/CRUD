@@ -1,0 +1,6 @@
+CREATE TABLE dbname.users (
+idusers INT NOT NULL AUTO_INCREMENT,
+firstName VARCHAR(45) NULL,
+lastName VARCHAR(45) NULL,
+email VARCHAR(45) NULL,
+PRIMARY KEY (idusers));
